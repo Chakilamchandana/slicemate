@@ -37,7 +37,3 @@ To run SLICEMATE locally on your machine:
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes. This is made for educational purposes only
-
-## Contact
-
-For any inquiries or feedback, please contact Chandana Chakilam at [Your Contact Information].
