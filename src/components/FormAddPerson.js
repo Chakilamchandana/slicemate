@@ -24,16 +24,18 @@ function FormAddPerson({ onAddPerson }) {
 
   return (
     <form className="form-add-friend" onSubmit={handleSubmit}>
-      <label>👫 Name</label>
+      <label htmlFor="name">Name</label>
       <input
         type="text"
         value={name}
+        id="name"
         onChange={(e) => setName(e.target.value)}
       />
-      <label>😎 Image URL</label>
+      <label htmlFor="image">😎 Image URL</label>
       <input
         type="text"
         value={image}
+        id="image"
         onChange={(e) => setImage(e.target.value)}
       />
       <Button>Add</Button>
